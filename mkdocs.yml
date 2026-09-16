@@ -9,3 +9,14 @@ theme:
 nav:
   - Главная: index.md
   - Руководство пользователя: guide.md
+site_name: Моя База Знаний
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+
+nav:
+  - Главная: index.md
+  - Руководство пользователя: guide.md
