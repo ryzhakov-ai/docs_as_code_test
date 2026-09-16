@@ -9,14 +9,10 @@ theme:
 nav:
   - Главная: index.md
   - Руководство пользователя: guide.md
-site_name: Моя База Знаний
 
-theme:
-  name: material
-  palette:
-    scheme: slate
-    primary: indigo
-
-nav:
-  - Главная: index.md
-  - Руководство пользователя: guide.md
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
