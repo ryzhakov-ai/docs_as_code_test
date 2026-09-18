@@ -31,5 +31,10 @@ autonumber
     VSCode->>Engine: Передает сырую строку текста
     Engine->>Engine: Собирает HTML-код
     Engine->>Webview: Отправляет готовый HTML + CSS
-    Webview->>User: Показывает красивую страницу в окне Preview    
+    Webview->>User: Показывает красивую страницу в окне Preview   
+    alt Engine error
+    Engine->>Engine: Parser error
+    Engine->>Webview: Sends error code
+    Webview->>User: Displays send error code
+    end 
 ```
