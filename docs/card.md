@@ -67,7 +67,7 @@
 ```json
 {
   "user_id": "usr_77410",
-  "card_number_masked": "4276**********44",
+  "card_number": "4276444444444444",
   "card_type": "VISA",
   "expiry_month": "12",
   "expiry_year": "2029",
