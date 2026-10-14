@@ -9,6 +9,7 @@ theme:
 nav:
   - Главная: index.md
   - Руководство пользователя: guide.md
+  - Привязка карты - тестовое ТЗ: card.md
 
 markdown_extensions:
   - pymdownx.superfences:
