@@ -3,7 +3,7 @@ name: Deploy Docs
 on:
   push:
     branches:
-      - main  # Проверьте, как называется ваша ветка (main или master)
+      - main  
 
 permissions:
   contents: write
