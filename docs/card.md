@@ -95,6 +95,6 @@
     * phone (string) - номер телефона
 
 * Таблица `cards` содержит данные карт
-  *  id (integer) - id карты в базе
-  *  user_id (string) - Foreign key, связывает карту с таблицей `users`
-  *  card_number (string) - замаскированный номер карты
+    *  id (integer) - id карты в базе
+    *  user_id (string) - Foreign key, связывает карту с таблицей `users`
+    *  card_number (string) - замаскированный номер карты
