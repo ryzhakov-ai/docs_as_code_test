@@ -1,0 +1,691 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../guide/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Привязка карты - тестовое ТЗ - Моя База Знаний</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Моя База Знаний" class="md-header__button md-logo" aria-label="Моя База Знаний" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Моя База Знаний
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Привязка карты - тестовое ТЗ
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Моя База Знаний" class="md-nav__button md-logo" aria-label="Моя База Знаний" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Моя База Знаний
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Руководство пользователя
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Привязка карты - тестовое ТЗ
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Привязка карты - тестовое ТЗ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Бизнес-видение
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Пользовательские требования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bpmn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Архитектура процесса (BPMN)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Интеграционный контракт (API)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Структура хранения данных
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Бизнес-видение
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Пользовательские требования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bpmn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Архитектура процесса (BPMN)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Интеграционный контракт (API)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Структура хранения данных
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">Техническое задание: Функционал привязки карты</h1>
+<h2 id="1-">1. Бизнес-видение</h2>
+<p>Необходимо добавить в приложение возможность привязки платежной карты для автоматической оплаты поездки, так как это:</p>
+<ul>
+<li>Гарантирует, что поездка будет оплачена пассажиром. Соответственно, резко повысит прибыль, так как количество «зайцев» уменьшится.</li>
+<li>Ускорит высадку пассажиров, т.к. оплата будет произведена автоматически и пассажир, как и водитель, не будет терять время, расплачиваясь наличными. Это приведет к росту выполненных заказов и повышению прибыли.</li>
+<li>Увеличит привлекательность такси для пользователей, что также повысит прибыль.</li>
+</ul>
+<hr />
+<h2 id="2">2. Пользовательские требования</h2>
+<ol>
+<li>Пользователь должен иметь возможность зайти в раздел привязки карты для автоматической оплаты, нажав на опцию <strong>«Добавить карту»</strong> во вкладке <strong>«Способы оплаты»</strong>.</li>
+<li>После нажатия опции <strong>«Добавить карту»</strong> Пользователю должен отображаться интерфейс, который позволяет вручную ввести:<ul>
+<li>Номер карты</li>
+<li>Срок действия</li>
+<li>CVC/CVV код</li>
+</ul>
+</li>
+<li>Пользователь должен иметь возможность видеть, что данные введены правильно.</li>
+<li><strong>Считывание через NFC:</strong> Пользователь должен иметь возможность считать параметры карты через NFC. <ul>
+<li><em>Реализация:</em> Добавить соответствующую иконку на интерфейс с пояснением о том, что необходимо поднести карту с NFC к телефону для автоматического распознавания. В этом случае поля «Номер карты» и «Срок действия» должны заполниться автоматически. "CVC/CVV" код <strong>всегда</strong> вводится Пользователем вручную.</li>
+</ul>
+</li>
+<li><strong>Считывание через камеру:</strong> Пользователь должен иметь возможность считать параметры карты через камеру. <ul>
+<li><em>Реализация:</em> Добавить соответствующую иконку на интерфейс, которая бы включала камеру и автоматически считывала номер карты и срок действия, помещая их в соответствующие поля. "CVC/CVV" код <strong>всегда</strong> вводится Пользователем вручную.</li>
+</ul>
+</li>
+<li>После ввода параметров карты и при условии, что валидация параметров прошла успешно, должна активироваться кнопка <strong>«Добавить»</strong>. В случае ошибки кнопка не должна активироваться.</li>
+<li>Пользователь должен нажать «Добавить», чтобы запустить процесс привязки карты.</li>
+<li>Необходимо показать интерфейс <strong>3D Secure</strong>, чтобы пользователь имел возможность ввести код проверки, если этот метод защиты используется банком.</li>
+<li>После успешной привязки карты пользователь должен быть перенаправлен на экран со списком карт, где отображается новая добавленная карта. Необходимо показать уведомление, что карта успешно добавлена.</li>
+<li>В случае ошибки привязки пользователь должен остаться на интерфейсе добавления карты. Необходимо показать нотификацию об ошибке и предложить пользователю попробовать привязать карту еще раз.</li>
+</ol>
+<hr />
+<h2 id="3">3. Функциональные требования</h2>
+<ol>
+<li>Приложение должно позволять Пользователю войти в интерфейс добавления карты через опцию <strong>«Добавить карту»</strong>.</li>
+<li>Приложение должно позволять Пользователю ввести данные карты (номер, срок действия, CVC) в интерфейсе добавления карты вручную, через NFC или камеру. CVC/СVV - строго вручную.</li>
+<li><strong>Валидация данных:</strong> Приложение должно валидировать введенные данные по следующим правилам:<ul>
+<li><strong>Номер карты:</strong> длина от 16 до 19 цифр, соответствие алгоритму Луна</li>
+<li><strong>Срок действия:</strong> формат <code>ММ/ГГ</code>, дата не должна быть меньше текущей</li>
+<li><strong>CVC/CVV:</strong> ровно 3 цифры</li>
+<li><em>Обработка ошибок:</em> При невалидном значении кнопка «Добавить» блокируется, а некорректное поле подсвечивается красным цветом</li>
+</ul>
+</li>
+<li>Приложение не должно разрешать добавлять карту с некорректно введенными данными — необходимо блокировать функционал добавления в этом случае.</li>
+<li>Приложение должно разрешать добавлять карту с корректно введенными данными — необходимо активировать кнопку добавления карты.</li>
+<li>При запросе на добавление карты, исходя из введенных параметров, приложение должно отправлять запрос на привязку в банк-эквайер / банк-эмитент, к которому относится карта.</li>
+<li>Приложение должно получить ответ от банка после запроса и активировать интерфейс 3D Secure для привязки карты, если это требуется банком.</li>
+<li>Приложение должно ожидать положительный или отрицательный ответ банка на запрос о привязке карты.</li>
+<li>В случае положительного ответа от банка Приложение должно добавить карту в список привязанных карт для данного пользователя и отобразить обновленный список.</li>
+<li>В случае отрицательного ответа или отсутствия ответа Приложение должно нотифицировать пользователя о том, что привязка не удалась.</li>
+</ol>
+<hr />
+<h2 id="4">4. Нефункциональные требования</h2>
+<ol>
+<li><strong>Скорость работы интерфейса:</strong> Открытие страницы добавления карты не должно превышать <strong>0.5 сек</strong>.</li>
+<li><strong>Таймаут банковских операций:</strong> Ожидание ответа от банка не должно превышать <strong>15 сек</strong>. Если время ожидания превышено, считается, что привязка не прошла, и приложение отображает ошибку. Рвем соединение и возвращаем 504 (Gateway timeout)</li>
+</ol>
+<h2 id="5-bpmn">5. Архитектура процесса (BPMN)</h2>
+<p><img alt="Бизнес-видение процесса привязки карты" src="../media/new_card.png" /></p>
+<h2 id="4-api">4. Интеграционный контракт (API)</h2>
+<p>Для инициализации привязки карты Приложение выполняет запрос к Платежному шлюзу.</p>
+<ul>
+<li><strong>Метод:</strong> POST</li>
+<li><strong>Эндпоинт:</strong> /v1/bind_card</li>
+<li><strong>Заголовки:</strong></li>
+<li>Content-Type: application/json</li>
+<li>Authorization: Bearer [токен]</li>
+</ul>
+<p><strong>Тело запроса (JSON):</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"usr_77410"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"card_number"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4276444444444444"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"card_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"VISA"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"expiry_month"</span><span class="p">:</span><span class="w"> </span><span class="s2">"12"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"expiry_year"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2029"</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">"payment_token"</span><span class="p">:</span><span class="w"> </span><span class="s2">"token"</span>
+<span class="p">}</span>
+</code></pre></div>
+<strong>Привязка удачная</strong></p>
+<ul>
+<li>При коде <code>200</code> (OK) приложение выводит: "Карта успешно добавлена."</li>
+</ul>
+<p><strong>Обработка ошибок шлюза:</strong></p>
+<ul>
+<li>При коде <code>404</code> (Не найдено) приложение выводит: "Не удалось привязать карту. Попробуйте попозже еще раз."</li>
+<li>При коде <code>422</code> (Нет денег/Ошибка банка) приложение выводит: "Не удалось привязать карту. Попробуйте попозже еще раз."</li>
+<li>При коде <code>500</code> (Сбой шлюза) приложение выводит: "Не удалось привязать карту. Попробуйте попозже еще раз."</li>
+<li>При коде <code>504</code> (Gateway timeout) приложение выводит: "Не удалось привязать карту. Попробуйте попозже еще раз."</li>
+</ul>
+<h2 id="5">5. Структура хранения данных</h2>
+<p>Данные о картах пользователей сохраняются в реляционную БД.</p>
+<ul>
+<li>
+<p>Таблица <code>users</code> содержит данные клиентов</p>
+<ul>
+<li>id (string) — Primary Key</li>
+<li>first_name (string) - имя</li>
+<li>last_name (string) - фамилия</li>
+<li>phone (string) - номер телефона</li>
+</ul>
+</li>
+<li>
+<p>Таблица <code>cards</code> содержит данные карт</p>
+<ul>
+<li>id (integer) - id карты в базе</li>
+<li>user_id (string) - Foreign key, связывает карту с таблицей <code>users</code></li>
+<li>card_number (string) - замаскированный номер карты</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
